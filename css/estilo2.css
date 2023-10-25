@@ -1,0 +1,71 @@
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+min-height: 100vh;
+}
+
+/* Estilos generales */
+
+.menu{
+   display: flex;
+   flex-direction: column;
+
+}
+
+nav ul  {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  
+    
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 20px;
+    color: #ff00bf;
+}
+a:hover{
+    width: 25px;
+    border-bottom: 2px solid #ffffff;
+ 
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+/* Media queries para hacerlo responsive */
+
+@media (max-width: 768px) {
+    .container-principal {
+        width: 90%;
+    }
+    .log{
+       width: 100px;
+        margin: auto;
+   
+ 
+    }
+    ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    
+    }
+    li{
+        padding-top: 25px;
+    }
+}
